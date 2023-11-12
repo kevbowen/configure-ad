@@ -39,11 +39,7 @@ Create a Domain Controller VM (Windows Server 2022) named "DC-1". Note the Resou
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To troubleshoot connectivity issues:
-1. Login to Client-1.
-2. Ping DC-1's private IP using "ping -t <ip address>" command.
-3. Enable ICMPv4 on the Domain Controller's Windows Firewall.
-4. Check back at Client-1 for successful ping.
+To resolve connectivity issues, you should start by logging in to Client-1. From there, you can use the "ping -t <ip address>" command to check the private IP of DC-1. If the ping test fails, you will need to enable ICMPv4 on the Windows Firewall of the Domain Controller. Once you've completed these steps, check back on Client-1 to confirm a successful ping.
 </p>
 <br />
 
@@ -51,7 +47,7 @@ To troubleshoot connectivity issues:
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Login to DC-1 and install Active Directory Domain Services. Then promote it as a Domain Controller by setting up a new forest with mydomain.com.
 </p>
 <br />
 
@@ -59,6 +55,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After the virtual machine has finished restarting, please log back into DC-1 by using the username mydomain.com\labuser.
 </p>
 <br />
