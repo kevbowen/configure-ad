@@ -45,7 +45,8 @@ To resolve connectivity issues, you should start by logging in to Client-1. From
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0mUcZbx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wnOCGRE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Login to DC-1 and install Active Directory Domain Services. Then promote it as a Domain Controller by setting up a new forest with mydomain.com.
