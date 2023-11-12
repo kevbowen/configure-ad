@@ -54,7 +54,7 @@ Login to DC-1 and install Active Directory Domain Services. Then promote it as a
 <br />
 
 <p>
-<img src="https://i.imgur.com/w29c4hw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Bzv6lKo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After the virtual machine has finished restarting, please log back into DC-1 by using the username mydomain.com\labuser.
