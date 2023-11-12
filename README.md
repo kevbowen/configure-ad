@@ -36,7 +36,8 @@ Create a Domain Controller VM (Windows Server 2022) named "DC-1". Note the Resou
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MzTj3kV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0iCtbkz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 To resolve connectivity issues, you should start by logging in to Client-1. From there, you can use the "ping -t <ip address>" command to check the private IP of DC-1. If the ping test fails, you will need to enable ICMPv4 on the Windows Firewall of the Domain Controller. Once you've completed these steps, check back on Client-1 to confirm a successful ping.
