@@ -39,7 +39,11 @@ Create a Domain Controller VM (Windows Server 2022) named "DC-1". Note the Resou
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To troubleshoot connectivity issues:
+1. Login to Client-1.
+2. Ping DC-1's private IP using "ping -t <ip address>" command.
+3. Enable ICMPv4 on the Domain Controller's Windows Firewall.
+4. Check back at Client-1 for successful ping.
 </p>
 <br />
 
