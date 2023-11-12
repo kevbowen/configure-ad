@@ -28,8 +28,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img src="https://i.imgur.com/YUBRHL8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DHyVlVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>
 Create a Domain Controller VM (Windows Server 2022) named "DC-1". Note the Resource Group and Vnet created. Set the NIC Private IP as static. Create a Windows 10 Client VM named "Client-1" using the same Resource Group and Vnet. Check the Network Watcher topology to confirm both VMs are on the same Vnet.
 </p>
